@@ -8,8 +8,9 @@
 </head>
 <body>
 	<h1 id="h1-main"align="center">Crypto Watcher</h1>
+	
 	{% for name,value in price.items() %}
-	<p>This is the price of {{name}}: {{value.usd}}</p>
+	<p id = price-statement>This is the price of {{name}}: {{value.usd}}</p>
 	{% endfor %}
 </body>
 </html>

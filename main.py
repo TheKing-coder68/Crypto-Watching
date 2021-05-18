@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from pycoingecko import CoinGeckoAPI
-import requests
+# import requests
 
 
 cg = CoinGeckoAPI()
