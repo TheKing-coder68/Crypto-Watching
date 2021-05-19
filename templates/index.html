@@ -10,7 +10,21 @@
 	<h1 id="h1-main"align="center">Crypto Watcher</h1>
 	
 	{% for name,value in price.items() %}
-	<p id = price-statement>This is the price of {{name}}: {{value.usd}}</p>
+	<div class="container-prices">
+		<table style="width:100%">
+			<tr>
+    			<th>Coin Name</th>
+    			<th>Current Price</th> 
+    			<th>Market Cap</th>
+  			</tr>
+  			<tr>
+    			<td>{{name}}</td>
+    			<td>{{value.usd}}</td> 
+    			<td>Empty</td>
+  			</tr>
+		</table>
+	</div>
+	<!-- <p id = price-statement>This is the price of {{name}}: {{value.usd}}</p> -->
 	{% endfor %}
 </body>
 </html>
