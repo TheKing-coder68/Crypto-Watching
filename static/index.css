@@ -1,14 +1,25 @@
 body{
 background-color: #124559;
 }
+
 #h1-main{
 	color: #DCFFFD;
 	font-size: 35px;
 }
+
 #price-statement{
 	font-size: 20px;
 	color: whitesmoke;
 }
+
 .container-prices{
 	color: whitesmoke;
+	padding-top: 300px;
+}
+
+th, td {
+  padding: 25px;
+}
+th{
+	font-size: 30px;
 }
